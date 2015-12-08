@@ -8,7 +8,7 @@ define( 'CHILD_THEME_URL', 'https://calderawp.com/doc/easy-queries-for-genesis' 
 define( 'CHILD_THEME_VERSION', '0.0.1' );
 
 //* Enqueue Lato Google font
-add_action( 'wp_enqueue_scripts', 'genesis_sample_google_fonts' );
+add_action( 'wp_enqueue_scripts', 'cwp_genesis_easy_queries_google_fonts' );
 function cwp_genesis_easy_queries_google_fonts() {
 	wp_enqueue_style( 'google-font-lato', '//fonts.googleapis.com/css?family=Lato:300,700', array(), CHILD_THEME_VERSION );
 }
